@@ -1,0 +1,118 @@
+html{
+ body {
+  background: linear-gradient(DarkSeaGreen, MediumSeaGreen, LightSeaGreen);
+  margin: 0;
+  font-family: 'Fredoka One', cursive;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+header {
+  background-color: HoneyDew;
+  padding: 20px 30px; /* smaller padding */
+  border-radius: 20px;
+  text-align: center;
+  color: OliveDrab;
+  max-width: 800px;
+  margin: 20px auto; /* center horizontally */
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 2.2rem;
+  letter-spacing: 1.5px;
+  text-shadow: 1px 1px 2px MediumSeaGreen;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: HoneyDew;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: OliveDrab;
+  text-align: center;
+  padding: 25px 20px;
+  text-decoration: none;
+  text-shadow: 1px 1px 2px MediumSeaGreen;
+}
+
+ul li a:hover {
+  background-color: LightGreen;
+}
+.image-container {
+  width: 260px;
+  height: 220px;
+  background-color: LightYellow;
+  padding: 10px;
+  border-radius: 15px;
+  display: inline-block;
+  float: left;
+  position: relative;
+  box-shadow: 0 4px 12px 10px pink;
+  margin-right: 30px;
+  margin-bottom: 20px;
+   margin-top: 10px;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+  transition: transform 0.3s ease, filter 0.3s ease;
+  display: block;
+}
+  
+.image-container:hover img {
+  transform: scale(1.2);
+  filter: brightness(1.3);
+  cursor: pointer;
+}
+
+.image-container2 {
+  width: 260px;
+  height: 220px;
+  background-color: LightYellow;
+  padding: 10px;
+  border-radius: 15px;
+  display: inline-block;
+  float: right;
+  position: relative;
+  box-shadow: 0 4px 12px 10px pink;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.image-container2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+  transition: transform 0.3s ease, filter 0.3s ease;
+  display: block;
+}
+  
+.image-container2:hover img {
+  transform: scale(1.2);
+  filter: brightness(1.3);
+  cursor: pointer;
+}
+.with-margin li{
+  margin-bottom: 15px;
+}
+
+}
+
+
+
